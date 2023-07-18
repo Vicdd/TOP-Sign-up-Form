@@ -17,6 +17,30 @@ body {
   background-size: cover;
 }
 
+.banner {
+  height: 20vh;
+  margin-top: 25vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner > p {
+  color: white;
+  font-family: "Norse Bold";
+  font-size: 7rem;
+  padding: 0;
+  margin: 0;
+  line-height: 0;
+}
+
+.banner > img {
+  height: 16vh;
+  padding: 0;
+  margin: 0;
+}
+
 .content {
   flex-direction: column;
   flex: 2;
