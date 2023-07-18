@@ -1,0 +1,37 @@
+@font-face {
+  font-family: "Norse Bold";
+  src: url("fonts/Norse-Bold.otf");
+}
+
+body {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.odin-bg {
+  flex: 1;
+  height:100vh;
+  background-image: url("images/background.jpg");
+  background-size: cover;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  flex: 2;
+  background-color: #f9fafb;
+}
+
+.header {
+  flex: 1.5;
+}
+
+form {
+  flex: 1;
+  background-color: white;
+}
+
+.footer {
+  flex: 1.5;
+}
