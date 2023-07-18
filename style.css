@@ -25,7 +25,7 @@ body {
 
 .header {
   height: 40vh;
-  padding: 10rem 32rem 0 3rem;
+  padding: 10rem 31rem 0 3rem;
   box-sizing: border-box;
 }
 
@@ -43,4 +43,33 @@ form {
 .footer {
   height: 40vh;
   box-sizing: border-box;
+  padding: 2rem 0 0 3rem;
+}
+
+button {
+  background-color: #596D48;
+  color: white;
+  width: 15rem;
+  height: 3rem;
+  border: 0;
+  border-radius: 0.5rem;
+  font-size: 1.1rem;
+  font-weight: 500;
+  font-family: "Roboto";
+  margin-bottom: 1rem;
+  box-shadow: 3px 4px 5px lightgray;
+}
+
+.login {
+  display: flex;
+}
+
+a {
+  padding: 0;
+  margin: 0;
+  vertical-align: bottom;
+  line-height: 50px;
+  text-decoration: none;
+  color: #596D48;
+  font-weight: 700;
 }
