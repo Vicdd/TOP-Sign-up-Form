@@ -12,7 +12,7 @@ body {
 
 .odin-bg {
   flex: 1;
-  height:115vh;
+  height: 115vh;
   background-image: url("images/background.jpg");
   background-size: cover;
 }
@@ -26,7 +26,7 @@ body {
   align-items: center;
 }
 
-.banner > p {
+.banner>p {
   color: white;
   font-family: "Norse Bold";
   font-size: 7rem;
@@ -35,7 +35,7 @@ body {
   line-height: 0;
 }
 
-.banner > img {
+.banner>img {
   height: 16vh;
   padding: 0;
   margin: 0;
@@ -76,7 +76,7 @@ form {
   flex-wrap: wrap;
 }
 
-form > div {
+form>div {
   display: flex;
   flex-direction: column;
   flex: 1 1 14vw;
