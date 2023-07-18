@@ -68,6 +68,7 @@ h2 {
   background-color: white;
   box-sizing: border-box;
   padding: 0.1rem 31rem 0 3rem;
+  box-shadow: 0 4px 5px lightgray;
 }
 
 form {
