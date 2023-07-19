@@ -160,3 +160,43 @@ a {
   color: #596D48;
   font-weight: 700;
 }
+
+/* mobile devices */
+@media screen and (max-width: 650px) {
+  body {
+    display:block;
+  }
+
+  .odin-bg {
+    height: 10rem;
+  }
+
+  .odin-bg>img {
+    object-fit: cover;
+  }
+  
+  .banner {
+    top: 0;
+    height: 10rem;
+  }
+
+  .banner>p {
+    font-size: 6rem;
+  }
+  
+  .banner>img {
+    height: 8rem;
+  }
+
+  .header {
+    padding: 3rem 3rem 2rem 3rem;
+  }
+
+  .footer {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem 0 0 0rem;
+  }
+  
+}
